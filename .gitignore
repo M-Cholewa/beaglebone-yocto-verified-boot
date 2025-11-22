@@ -3,11 +3,15 @@ build/tmp/
 build/cache/
 build/downloads/
 build/sstate-cache/
+build/bitbake-cookerdaemon.log
+downloads/
+sstate-cache/
 
 # Keep configuration
 !build/conf/
 
-# Keys - NIGDY nie commituj kluczy prywatnych!
+# Keys
+keys/
 keys/*.key
 keys/*-private.*
 *.pem
