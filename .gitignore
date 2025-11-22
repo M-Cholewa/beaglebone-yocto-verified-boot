@@ -1,0 +1,25 @@
+# Build directory
+build/tmp/
+build/cache/
+build/downloads/
+build/sstate-cache/
+
+# Keep configuration
+!build/conf/
+
+# Keys - NIGDY nie commituj kluczy prywatnych!
+keys/*.key
+keys/*-private.*
+*.pem
+*.p12
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
